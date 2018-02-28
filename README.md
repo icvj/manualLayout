@@ -11,7 +11,7 @@
 @interface UIView (JTAdd)
 
 #pragma mark - layout
-@property (nonatomic) CGFloat jt_left;        ///< Shortcut for frame.origin.x.
+@property (nonatomic) CGFloat jt_left;        
 @property (nonatomic) CGFloat jt_top;         ///< Shortcut for frame.origin.y
 @property (nonatomic) CGFloat jt_right;       ///< Shortcut for frame.origin.x + frame.size.width
 @property (nonatomic) CGFloat jt_bottom;      ///< Shortcut for frame.origin.y + frame.size.height
